@@ -21,6 +21,8 @@ video {
 }
 
 .nav-bar-links-ul {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
     list-style: none;
 }
 
