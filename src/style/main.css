@@ -1,0 +1,29 @@
+*{box-sizing: border-box;}
+
+video {
+    position: absolute;
+    width: 100vw;
+    z-index: -1;
+}
+
+.video-overlay {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: #0090c96b;
+}
+
+.video-header {
+    position: absolute;
+    height: 10vh;
+    width: 100vw;
+    background-color: #0091c980;
+}
+
+.nav-bar-links-ul {
+    list-style: none;
+}
+
+/* .nav-bar-links {
+
+} */
