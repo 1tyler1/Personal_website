@@ -11,9 +11,13 @@ export default class NavBar extends Component {
                             <Link label="About Me" to="/about">
                                 <button>About Tyler</button>
                             </Link>
+                        </li> 
+                        <li>
                             <Link label="Projects" to="/projects">
                                 <button>Project Examples</button>
                             </Link>
+                        </li>
+                        <li>
                             <Link label="Projects" to="https://github.com/1tyler1/">
                                 <button>Github</button>
                             </Link>
