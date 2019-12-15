@@ -55,22 +55,19 @@ video {
     padding-bottom: 10px;
 }
 
-.link-1-btn {
-    border: none;
-    background: none;
-    color: #f5f5f5;
-}
-
 .link-2-btn {
     border: none;
     background: none;
     color: #f5f5f5;
+    text-decoration: none;
 }
 
 .link-3-btn {
     border: none;
     background: none;
     color: #f5f5f5;
+    text-decoration: none;
+    padding-bottom: 10px;
 }
 
 @keyframes header {
