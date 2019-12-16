@@ -10,13 +10,14 @@ export default class Home extends Component {
         return ( 
             <div className = "video-overlay">
                 <NavBar/>
-                <video src = { Video } autoPlay = { true } loop = { true }> 
-                </video>  
-                <h1 className = "header-animation-1" > Tyler Lauren Designs </h1>     
-                <h1 className = "header-animation-2" > Fullstack Software Development and Design </h1>
-                    <div className = "scroll-button">
+                <video autoPlay loop>
+                    <source src={Video} />
+                </video>
+                <h1 className = "header-animation-1"> Tyler Lauren Designs </h1>     
+                <h1 className = "header-animation-2"> Fullstack Software Development and Design </h1>
+                   {/* <div className = "scroll-button">
                         <img className = "down_arrow_scroll bounce" src = { DownArrow }/>     
-                    </div> 
+                    </div> */}
             </div>
         )
     }

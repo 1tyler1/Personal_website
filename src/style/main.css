@@ -33,14 +33,14 @@
 
 video {
     position: absolute;
-    width: 100%;
+    height: -webkit-fill-available;
     z-index: -1;
 }
 
 .video-overlay {
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: -webkit-fill-available;
     background-color: #07698fe7;
 }
 
