@@ -10,7 +10,7 @@ export default class Home extends Component {
         return ( 
             <div className = "video-overlay">
                 <NavBar/>
-                <video autoPlay loop>
+                <video autoPlay loop muted>
                     <source src={Video} />
                 </video>
                 <h1 className = "header-animation-1"> Tyler Lauren Designs </h1>     
