@@ -31,10 +31,24 @@
 
 /* Desktop/Laptop */
 
+.video-container {
+    height: 0px;
+    widows: 0px;
+}
+
+.projects {
+    height: 100%;
+    width: 100%;
+    background-color: #07698fe7;
+    text-align: center;
+}
+
 video {
+    top: 0;
     position: absolute;
-    height: -webkit-fill-available;
+    zoom: 200%;
     z-index: -1;
+    overflow: hidden;
 }
 
 .video-overlay {
@@ -42,9 +56,11 @@ video {
     height: 100%;
     width: -webkit-fill-available;
     background-color: #07698fe7;
+    overflow: hidden;
 }
 
 .video-header {
+    top: 0;
     position: absolute;
     height: 40px;
     width: 100vw;
@@ -56,6 +72,7 @@ video {
     position: absolute;
     height: 40px;
     width: 40px;
+    top: 0;
     box-sizing: none;
     background-color: #00ffff;
 }

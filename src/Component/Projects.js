@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 export default class Projects extends Component {
     render() {
         return (
-            <div>
+            <div className="projects">
                 <ul>
                     <li>
                         <Link label="example 1" to="https://morning-peak-19701.herokuapp.com">
