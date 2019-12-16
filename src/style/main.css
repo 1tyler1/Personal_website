@@ -1,46 +1,19 @@
-* {
-    box-sizing: border-box;
-}
-
-
-/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-
-
-/* Portrait */
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
-
-
-/* Landscape */
-
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {}
-
-
-/* ----------- Google Pixel ----------- */
-
-
-/* Portrait */
-
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {}
-
-
-/* Landscape */
-
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {}
-
-
-/* Desktop/Laptop */
-
 .video-container {
     height: 0px;
     widows: 0px;
 }
 
 .projects {
-    height: 100%;
-    width: 100%;
+    top: 0;
+    height: 100vh;
     background-color: #07698fe7;
     text-align: center;
+}
+
+ul {
+    margin: 0;
+    display: inline-block;
+    list-style: none;
 }
 
 video {
