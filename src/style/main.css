@@ -90,12 +90,14 @@ video {
 }
 
 .link-2 {
+    z-index: 100;
     grid-column: 15;
     grid-row: 1;
     padding-bottom: 10px;
 }
 
 .link-3 {
+    z-index: 100;
     grid-column: 14;
     grid-row: 1;
     padding-bottom: 10px;
