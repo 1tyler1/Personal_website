@@ -12,12 +12,12 @@ export default class NavBar extends Component {
                     </div>
                     
                     <ul className = "nav-bar-links-ul"> 
-                        <li className = "link-2">
+                        <li className = "link">
                             <Link label = "Projects" to ="/projects" className = "link-2-btn">   
                                 Project Examples    
                             </Link> 
                         </li>    
-                        <li className = "link-3">
+                        <li className = "link-2">
                             <a className = "link-2-btn" href="https://github.com/1tyler1/">Github</a>
                         </li>    
                     </ul> 
